@@ -3,3 +3,123 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-family: sans-serif, Arial, Helvetica
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+}
+
+.header-top {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+}
+
+.nav-top {
+    background-color: #F4F9FD;
+    border-bottom: 1px solid black;
+}
+
+li {
+    list-style: none;
+}
+
+nav li {
+    float: left;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border-radius: 5px;
+}
+
+input.orange {
+    color: white;
+    background-color: #FE775A;
+    border: none;
+    padding: 10px;
+}
+
+input#small-orange {
+    color: white;
+    background-color: #FE775A;
+    border: none;
+    padding: 5px;
+}
+
+input#transparent {
+    background-color: transparent;
+    color: #FE775A;
+    border-color: #FE775A;
+    padding: 5px;
+}
+
+.header-bot {
+    width: 100%;
+    background-image: url(img/jumbotron.png);
+    background-size: cover;
+    
+}
+
+.row {
+    width: 100%;
+    background-color: #AFEBE4;
+    border: 3px solid black
+}
+
+main {
+    width: 100%;
+}
+
+.main-top {
+    width: 100%;
+    background-color: #F4F9FD;
+}
+
+.main-top div {
+    background-color: white;
+}
+
+.main-center {
+    width: 100%;
+    background-color: #00B1B0;
+}
+
+.main-bot {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: #32495B;
+}
+
+footer h5 {
+    color: white;
+    font-size: 18px;
+}
+
+footer a {
+    color: white;
+    font-size: 13px;
+}
+
+    RICORDA DI METTERE IL PADDING NEI BUTTON SENZA BORDO COSI' DA ESSERE CLICCATI MEGLIO
