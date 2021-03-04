@@ -18,7 +18,7 @@ header {
 }
 
 .header-top {
-    width: 100%;
+    width: 100%; 
 }
 
 nav {
@@ -28,6 +28,20 @@ nav {
 .nav-top {
     background-color: #F4F9FD;
     border-bottom: 1px solid black;
+    height: 7vh;
+    line-height: 7vh;
+    padding: 0vh 10vw 0vh 10vw;
+}
+
+.nav-bot {
+    height: 20vh;
+    line-height: 8vh;
+    padding: 0vh 10vw 0vh 10vw;
+
+}
+
+nav #logo {
+    width: 8.5vw;
 }
 
 li {
@@ -47,6 +61,11 @@ a {
     text-decoration: none;
 }
 
+a#contacts {
+    padding-right: 10px;
+    border-right: 1px solid grey;
+}
+
 input {
     border-radius: 5px;
 }
@@ -55,31 +74,55 @@ input.orange {
     color: white;
     background-color: #FE775A;
     border: none;
-    padding: 10px;
+    padding: 15px;
 }
 
 input#small-orange {
     color: white;
     background-color: #FE775A;
     border: none;
-    padding: 5px;
+    padding: 10px;
 }
 
 input#transparent {
     background-color: transparent;
     color: #FE775A;
     border-color: #FE775A;
-    padding: 5px;
+    padding: 10px;
 }
 
 .header-bot {
     width: 100%;
     background-image: url(img/jumbotron.png);
     background-size: cover;
+    padding: 10vh 10vw 22.5vh 10vw;
+}
+
+.header-bot > div {
+    width: 40vw;
+}
+
+header h1 {
+    font-size: 46px;
+    line-height: 50px;
+}
+
+header p.big {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+header p.small {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 14px;
     
 }
 
 .row {
+    height: 7vh;
     width: 100%;
     background-color: #AFEBE4;
     border: 3px solid black
@@ -122,4 +165,25 @@ footer a {
     font-size: 13px;
 }
 
+footer input {
+    background-color: white;
+    color: #32495B;
+    padding: 10px;
+
+}
+
     RICORDA DI METTERE IL PADDING NEI BUTTON SENZA BORDO COSI' DA ESSERE CLICCATI MEGLIO
+
+
+    TRASFORMA TUTTE LE GRANDEZZE IN VIEWPORT
+
+
+    main-top
+
+    main-center
+
+    main-bot
+
+    footer-top
+
+    footer-bot
