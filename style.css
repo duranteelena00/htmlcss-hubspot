@@ -137,7 +137,7 @@ header p.small {
     height: 7vh;
     width: 100%;
     background-color: #AFEBE4;
-    border: 3px solid black
+    border: 3px solid rgb(70, 69, 69)
 }
 
 main {
@@ -147,7 +147,7 @@ main {
 
 .main-top {
     background-color: #F4F9FD;
-    height: 1200px;
+    height: 1400px;
 }
 
 .main-top div#centered {
@@ -172,34 +172,121 @@ main {
     background-color: white;
 }
 
-.main-top div.white.row {
+.main-top div.white.small-row {
     margin: auto;
-    width: 70vw;
-    padding: 10vw 5vh 10vw 5vh;
+    width: 70%;
+    height: 40vh;
+    padding-top: 7.5vh;
+    padding-bottom: 9vh;
 }
 
-.main-top div.white-row > div {
+.main-top div.white.small-row > div {
     display: inline-block;
-    padding-left: 75px;
     float: left;
+}
+
+#more {
+    padding-left: 100px;
+    width: 20%;
+}
+
+.main-top #more > img {
+    height: 100px;
+}
+
+#more input {
+    padding: 20px 40px 20px 40px;
+}
+
+#info {
+    padding-left: 150px;
+    padding-right: 100px;
+    width: 80%;
+}
+
+#info > p {
+    width: 90%;
+    font-size: 13px;
+}
+
+#info ul {
+    padding-top: 20px;
+}
+
+#info li {
+    display: inline;
+    padding-right: 30px;
+}
+
+.main-top .white.big-row {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; 
+}
+
+input.radio-box {
+    margin-right: 10px;
 }
 
 .main-top div.white.column {
-    width: 25vw;
-    display: inline-block;
+    width: 30%;
     float: left;
-
 }
 
-.main-top div.white.column#left {
-    padding-left: 10vw;
-    padding-right: 2.5vw;
+.main-top div.white.column#center {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.main-top div.white.column#right {
-    padding-left: 10vw;
-    padding-right: 2.5vw;
+.main-top .white.column img {
+    height: 150px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 115px;
 }
+
+.white.column h3, p{
+    text-align: center;
+}
+
+.white.column p {
+    padding-right: 40px;
+    padding-left: 40px;
+    line-height: 25px;
+}
+
+.white.column hr {
+    width: 80%;
+    margin: auto;
+}
+
+.white.column h4 {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.white.column ul {
+    padding-left: 35px;
+    padding-bottom: 50px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.white.column input.orange {
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 .main-center {
     padding: 7.5vh 15vw 10vh 15vw;
@@ -219,7 +306,7 @@ main {
 
 footer {
     width: 100%;
-    height: 1000px;
+    height: 650px;
     background-color: #32495B;
     padding: 2vh 0vw 2vh 15vw;
 }
