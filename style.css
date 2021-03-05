@@ -47,21 +47,25 @@ nav img#logo {
     vertical-align: middle;
 }
 
-nav ul.grey {
-    color: grey;
+nav ul.right {
+
 }
 
 li {
     list-style: none;
+    color: darkgrey;
 }
 
-nav li {
+.nav-top li {
     float: left;
+    margin-right: 15px;
 }
 
 select {
     background-color: transparent;
+    color: darkgrey;
     border: none;
+    padding-left: 10px;
 }
 
 a {
@@ -69,17 +73,26 @@ a {
 }
 
 nav a {
-    color: grey;
+    color: darkgrey;
 }
 
+nav ul.left {
+    margin-left: 70%;
+}
 
 a#contacts {
-    padding-left: 10px;
+    margin-left: 10px;
+    padding-left: 15px;
     border-left: 1px solid grey;
 }
 
 input {
     border-radius: 5px;
+}
+
+
+.nav-top input {
+    margin-left: 20px;    
 }
 
 input.orange {
@@ -101,6 +114,20 @@ input#transparent {
     color: #FE775A;
     border-color: #FE775A;
     padding: 10px 5px 10px 5px;
+}
+
+.nav-bot ul {
+    padding-left: 40%;
+    
+}
+
+.nav-bot a {
+    padding-right: 15px;
+}
+
+.nav-bot li {
+    float: left;
+    padding-right: 15px;
 }
 
 .header-bot {
@@ -130,6 +157,7 @@ header p.small {
     padding-top: 5vh;
     padding-bottom: 5vh;
     font-size: 10px;
+    text-align: left;
     
 }
 
