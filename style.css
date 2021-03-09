@@ -31,10 +31,17 @@ nav {
 .nav-top {
     background-color: #F4F9FD;
     border-bottom: 1px solid grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.nav-top input {
-    margin-left: 20px;    
+.nav-bot {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-top a {
+    margin-left: 10px;    
 }
 
 .orange {
@@ -98,9 +105,8 @@ a.big {
     padding-bottom: 40px;
 }
 
-nav a, nav label{
+nav a, nav label {
     color: #838383;
-    vertical-align: middle;
 }
 
 #contacts {
@@ -115,8 +121,10 @@ nav a, nav label{
 }
 
 .nav-bot li {
+    margin-top: 7.5px;
+    margin-left: 15px;
     float: right;
-    padding-left: 15px;
+
 }
 
 .header-bot {
@@ -164,8 +172,10 @@ nav a, nav label{
 .main-top {
     background-color: #F4F9FD;
     width: 100%;
-    height: 1250px;
-    padding-bottom: 5%;
+    height: fit-content;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 30px;
 }
 
 .main-top #centered {
@@ -191,14 +201,14 @@ nav a, nav label{
 }
 
 .main-top .white.small-row {
-    margin: auto;
-    width: 70%;
-    height: fit-content;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    margin-bottom: 3%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    height: auto;
 }
 
-.small-row > div {
+.white.small-row > div {
     float: left;
 }
 
@@ -208,9 +218,17 @@ nav a, nav label{
     text-align: center;
 }
 
+#more > a {
+width: 120px;
+height: auto;
+display: block;
+margin: 0px auto;
+text-align: center;
+}
+
 #more > img {
-    width: 150px;
-    margin-bottom: 20px;
+    width: 80%;
+    margin-bottom: 30px;
 }
 
 .small-row div#info {
@@ -219,19 +237,25 @@ nav a, nav label{
     width: 75%;
 }
 
-#info > p {
-    width: 90%;
-    font-size: 13px;
+#info > h3 {
+    font-size: 20px;
 }
 
-#info ul {
-    padding-top: 5%;
+#info > p {
+    width: 90%;
+    font-size: 15px;
+    line-height: 26px;
 }
 
 #info li {
     color: #838383;
     display: inline;
-    padding-right: 5%;
+    padding-right: 2.5%;
+    padding-top: 2.5%;
+}
+
+#info > h4 {
+    margin-bottom: 15px;
 }
 
 #info h4, #info hr {
@@ -242,44 +266,42 @@ nav a, nav label{
     width: 65%;
 }
 
-.main-top .white.big-row {
-    margin-top: 3%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%; 
-}
-
 input.radio-box {
     margin-right: 10px;
 }
 
-.main-top div.white.column {
+.main-top .white.column {
     width: 30%;
+    padding-top: 30px;
     padding-bottom: 40px;
     height: auto;
     float: left;
 }
 
-.main-top div.white.column#center {
+.white.column#center {
     margin-left: 5%;
     margin-right: 5%;
 }
 
 .main-top .white.column img {
-    height: 150px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    margin-left: 115px;
+    display: block;
+    margin: 0px auto;
+    height: 15vh;
+    text-align: center;
 }
 
 .white.column h3, .white.column p {
     text-align: center;
 }
 
+.white.column h3 {
+    margin-top: 20px;
+}
+
 .white.column p {
     padding-right: 10%;
     padding-left: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 7.5%;
     line-height: 25px;
     font-size: 14px;   
 }
@@ -290,9 +312,10 @@ input.radio-box {
 }
 
 .white.column h4 {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     text-align: center;
+    font-size: 16px;
 }
 
 .white.column ul {
@@ -303,9 +326,14 @@ input.radio-box {
     line-height: 20px;
 }
 
-.white.column a.orange {
-    margin-left: 35%;
-    margin-bottom: 10%;
+.white.column a {
+    width: 120px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
 }
 
 .main-center {
@@ -328,7 +356,7 @@ input.radio-box {
 }
 
 .main-center table {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -450,15 +478,19 @@ footer a#support {
     border: none;
 }
 
-.footer-top > div.padding-right > h5, ul {
-    padding-right: 25px;
+.footer-top > .left, .footer-top > .center, .footer-top > h5, .footer-top > ul {
+    margin-right: 8%;
 }
 
-.footer-top div {
+.footer-top div.left, .footer-top > div.center {
     font-size: 7px;
     line-height: 26px;
     float: left;
-    padding-right: 4vw;
+}
+
+.footer-top div.right {
+    float: right;
+    margin-right: 10%;
 }
 
 ul.social-networks-icons > li {
@@ -508,8 +540,3 @@ ul.lang > li {
     width: 100px;
     padding-top: 10%;
 }
-
-
-
-    TOGLIERE LA ALTEZZA AL main-top
-   
