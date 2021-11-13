@@ -85,7 +85,7 @@ li {
     color: darkgrey;
 }
 
-.select {
+i {
     vertical-align: middle;
     color: rgb(172, 170, 170);
     font-weight: bolder;
@@ -372,11 +372,6 @@ input.radio-box {
     margin: auto;
 }
 
-.main-center td {
-    padding: 3% 7.5% 3% 7.5%;
-    width: 20%;
-}
-
 .main-center #top-tr td {
     border-bottom: 1px solid white;
     padding-bottom: 3%;
@@ -387,16 +382,24 @@ input.radio-box {
 }
 
 .main-center img.symbol {
-    width: 50px;
+    width: 40px;
 }
 
 .main-center img.big {
-    width: 85px;
+    width: 50px;
 }
 
 .main-center h1 {
     padding-top: 10%;
-    font-size: 44px;
+    font-size: 30px;
+}
+
+td {
+  width: 20%;
+}
+
+td p {
+  padding: 10px 30px;
 }
 
 .main-center td.border-left {
@@ -456,8 +459,9 @@ input.radio-box {
 
 #woman > img {
     margin-top: 2.5%;
+    margin-left: 15%;
+    width: 40%;
     float: right;
-    width: 300px;
 }
 
 footer {
@@ -485,30 +489,25 @@ footer a {
 footer a#support {
     background-color: white;
     color: #32495B;
-    margin-top: 7.5%;
     padding: 10px;
     border: none;
 }
 
-.footer-top > .left, .footer-top > .center, .footer-top > h5, .footer-top > ul {
+.footer-top > h5, .footer-top > ul {
     margin-right: 8%;
 }
 
-.footer-top div.left, .footer-top > div.center {
+.footer-top div.left, .footer-top > div.center, .footer-top > .right {
+    padding: 10px 25px;
     font-size: 7px;
     line-height: 26px;
     float: left;
 }
 
-.footer-top div.right {
-    float: right;
-    margin-right: 10%;
-}
-
 ul.social-networks-icons > li {
     padding-top: 20px;
     float: right;
-    padding-right: 12.5px;
+    padding-right: 10px;
 }
 
 ul.social-networks-icons img {
@@ -522,10 +521,8 @@ ul.social-networks-icons img {
 }
 
 ul.lang > li {
+    padding: 20px 0;
     float: left;
-    padding-top: 7.5%;
-    padding-bottom: 15px;
-    padding-right: 20px;
 }
 
 .footer-bot hr {
