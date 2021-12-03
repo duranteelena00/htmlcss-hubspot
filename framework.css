@@ -1,0 +1,164 @@
+/* laptop breakpoint*/
+@media screen and (min-width: 769px) {
+  .d-xs-block {
+    display: none;
+  }
+
+  .d-md-none {
+    display: flex;
+  }
+
+  #hubspot-crm ul {
+    margin: 10px 0 35px 0;
+    color: #838383;
+    font-size: 14px;
+    line-height: 30px;
+    display: flex;
+  }
+
+  table {
+    width: 70%;
+    margin: auto;
+  }
+
+  table td {
+    padding: 30px 0;
+    width: 20%;
+    vertical-align: text-top;
+  }
+
+  table h3 {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  table img.small {
+    height: 40px;
+  }
+
+  table img.symbol {
+    height: 40px;
+  }
+
+  table img.big {
+    height: 30px;
+  }
+}
+
+/* tablet breakpoint */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .d-md-none {
+    display: none;
+  }
+
+  .d-xs-block {
+    display: flex;
+  }
+
+  .col-md-12 {
+    width: calc(100% / 12 * 12);
+  }
+
+  #get-started {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .picture {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  nav {
+    font-size: 13px;
+  }
+
+  main #hubspot-crm ul {
+    margin: 10px 0 35px 0;
+    color: #838383;
+    font-size: 12px;
+  }
+
+  .jumbotron-text p {
+    font-size: 14px;
+    text-align: left;
+  }
+  .d-md-none {
+    display: none;
+  }
+
+  .row-flex {
+    display: inline-block;
+  }
+
+  .col-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .col-text ul {
+    display: flex;
+  }
+
+  .col-text li {
+    margin: 0 15px;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  table td {
+    padding: 30px 0;
+    width: 20%;
+    vertical-align: text-top;
+  }
+
+  table td p {
+    margin-top: 10px;
+    font-size: 17px;
+  }
+
+  main table {
+    width: 70%;
+    margin: auto;
+  }
+
+  table td {
+    padding: 30px 0;
+    width: 20%;
+    vertical-align: text-top;
+  }
+}
+
+/* smartphone breakpoint */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .d-xs-none {
+    display: none;
+  }
+
+  .jumbotron-text p {
+    font-size: 12px;
+    line-height: 22px;
+    text-align: left;
+  }
+  table td {
+    padding: 30px 0;
+    vertical-align: text-top;
+  }
+  table img {
+    height: 20px;
+  }
+
+  table h3 {
+    font-size: 22px;
+  }
+
+  table td p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}
+
